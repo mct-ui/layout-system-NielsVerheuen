@@ -151,9 +151,9 @@ a:hover, a:focus {
 \*------------------------------------*/
 
 /*
-    Object: Object name
+    Object: Row
     ---
-    Object description
+    Defines content rows
 */
 
 .o-row {
@@ -176,6 +176,18 @@ a:hover, a:focus {
     .o-row--lg {
         padding: 48px 48px 24px;
     }
+}
+
+/*
+    Objects: Container
+    ---
+    Creates a horizontal container that sets de global max-width
+*/
+
+.o-container {
+    margin: 0 auto;
+    /* 1440px / 16 */
+    max-width: 90em;
 }
 
 /*------------------------------------*\
